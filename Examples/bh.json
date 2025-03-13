@@ -1,0 +1,2008 @@
+[
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH12130 ]",
+      "category": "Category: NETWORK",
+      "count": "(x4)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH12134 ]",
+      "category": "Category: BEHAVIOR",
+      "count": "(x1)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"useradd\" command, or other",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH12153 ]",
+      "category": "Category: FILE",
+      "count": "(x6)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"chown\" Shell command, or",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH12174 ]",
+      "category": "Category: FILE",
+      "count": "(x188)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"find -perm\" Shell command, or",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH12205 ]",
+      "category": "Category: NETWORK",
+      "count": "(x23)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"socat udp4-listen\" Shell",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH12214 ]",
+      "category": "Category: EXECUTION",
+      "count": "(x67)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"subprocess.run\" Python",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH12220 ]",
+      "category": "Category: EXECUTION",
+      "count": "(x336)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"Sleep\" Windows API, or",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH12223 ]",
+      "category": "Category: FILE",
+      "count": "(x309)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"DeleteFileA\" Windows API, or",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH12321 ]",
+      "category": "Category: EXECUTION",
+      "count": "(x22)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH12323 ]",
+      "category": "Category: PACKER",
+      "count": "(x1)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of \"exec(base64.b64decode)\"",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH12330 ]",
+      "category": "Category: EXECUTION",
+      "count": "(x1)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"call\" Batch command.",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH12338 ]",
+      "category": "Category: EXECUTION",
+      "count": "(x3)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"child_process.exec\" NodeJS",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH12395 ]",
+      "category": "Category: EXECUTION",
+      "count": "(x2)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"pkill\" command, or other",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH12406 ]",
+      "category": "Category: EXECUTION",
+      "count": "(x15)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"LoadLibraryA\" Windows API, or",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH12422 ]",
+      "category": "Category: FILE",
+      "count": "(x4)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"chattr\" Shell command, or",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH12424 ]",
+      "category": "Category: PERMISSIONS",
+      "count": "(x33)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"chmod\" Shell command, or",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH12427 ]",
+      "category": "Category: FILE",
+      "count": "(x29)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"SetFileTime\" Windows API, or",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH12447 ]",
+      "category": "Category: STEAL",
+      "count": "(x12)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of \"keydown\" and \"altKey\" and other",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH12472 ]",
+      "category": "Category: SEARCH",
+      "count": "(x2)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"ps -A\" Shell command.",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH12578 ]",
+      "category": "Category: STEALTH",
+      "count": "(x1)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"start /b\" Batch command.",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH12793 ]",
+      "category": "Category: EXECUTION",
+      "count": "(x43)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"os.kill\" Python method, or",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH12794 ]",
+      "category": "Category: EXECUTION",
+      "count": "(x6)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"TerminateThread\" Windows API,",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH12797 ]",
+      "category": "Category: DISABLE",
+      "count": "(x1)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"taskkill\" Batch command.",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH12805 ]",
+      "category": "Category: EVASION",
+      "count": "(x4)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"IsDebuggerPresent\" Windows",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH12843 ]",
+      "category": "Category: EXECUTION",
+      "count": "(x4)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the presence of the \"msvcrt.dll\" string.",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH12850 ]",
+      "category": "Category: BEHAVIOR",
+      "count": "(x6)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"getpass\" Linux API, or",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH12869 ]",
+      "category": "Category: FILE",
+      "count": "(x2)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the presence of the \"/proc\" string in Shell",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH12950 ]",
+      "category": "Category: FILE",
+      "count": "(x1)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the presence of the \"/proc/sys\" string in",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH12960 ]",
+      "category": "Category: SETTINGS",
+      "count": "(x1)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"ulimit\" Shell command.",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH12996 ]",
+      "category": "Category: FILE",
+      "count": "(x3)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the presence of the \"/etc/default\" string in",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH13000 ]",
+      "category": "Category: FILE",
+      "count": "(x5)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the presence of the \"/dev/null\" string in",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH13012 ]",
+      "category": "Category: STEAL",
+      "count": "(x2)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"mailbox.Mailbox\" Python",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH13013 ]",
+      "category": "Category: STEAL",
+      "count": "(x5)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH13111 ]",
+      "category": "Category: PERMISSIONS",
+      "count": "(x4)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"chgrp\" Shell command, or",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH13126 ]",
+      "category": "Category: EXECUTION",
+      "count": "(x578)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH13127 ]",
+      "category": "Category: EXECUTION",
+      "count": "(x418)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH13129 ]",
+      "category": "Category: FILE",
+      "count": "(x2)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of \"java.lang.reflect.Method.invoke\"",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH13130 ]",
+      "category": "Category: EXECUTION",
+      "count": "(x14)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH13140 ]",
+      "category": "Category: EXECUTION",
+      "count": "(x249)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"java.lang.System.exit\" Java",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH13154 ]",
+      "category": "Category: NETWORK",
+      "count": "(x20)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH13160 ]",
+      "category": "Category: NETWORK",
+      "count": "(x34)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"java.sql.Driver.connect\" Java",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH13248 ]",
+      "category": "Category: FILE",
+      "count": "(x3)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"encoding/json.Marshal\" Golang",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH13254 ]",
+      "category": "Category: EXECUTION",
+      "count": "(x12)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of \"syscall\" and other similar APIs.",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH13255 ]",
+      "category": "Category: EXECUTION",
+      "count": "(x32)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"exit\" Linux API, or methods",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH13295 ]",
+      "category": "Category: SETTINGS",
+      "count": "(x26)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the presence of \"AWS_DATA_PATH\" and other",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH13296 ]",
+      "category": "Category: SETTINGS",
+      "count": "(x1)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the presence of the \"AWS_ACCESS_KEY_ID\"",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH13297 ]",
+      "category": "Category: SETTINGS",
+      "count": "(x1)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the presence of the \"AWS_CONFIG_FILE\" string.",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH13298 ]",
+      "category": "Category: SETTINGS",
+      "count": "(x1)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the presence of the \"AWS_SECRET_ACCESS_KEY\"",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH13299 ]",
+      "category": "Category: SETTINGS",
+      "count": "(x1)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the presence of the \"AWS_SESSION_TOKEN\"",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH13300 ]",
+      "category": "Category: SETTINGS",
+      "count": "(x1)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the presence of the",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH13301 ]",
+      "category": "Category: SETTINGS",
+      "count": "(x1)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the presence of the",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH13314 ]",
+      "category": "Category: EXECUTION",
+      "count": "(x7)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the presence of the \"wusa.exe\" string, or",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH15145 ]",
+      "category": "Category: PACKER",
+      "count": "(x46)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"base64.b64encode\" Python",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH15183 ]",
+      "category": "Category: PACKER",
+      "count": "(x7)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"decode\" Python method, or",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH15186 ]",
+      "category": "Category: PACKER",
+      "count": "(x35)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"base64 --decode\" Shell",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH15189 ]",
+      "category": "Category: FILE",
+      "count": "(x3)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"base64.b16encode\" Python",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH15203 ]",
+      "category": "Category: PACKER",
+      "count": "(x16)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"gzip.compress\" Python method,",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH15204 ]",
+      "category": "Category: PACKER",
+      "count": "(x22)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"gzip.decompress\" Python",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH15207 ]",
+      "category": "Category: PACKER",
+      "count": "(x47)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"zlib.compress\" Python method,",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH15208 ]",
+      "category": "Category: PACKER",
+      "count": "(x44)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"zlib.decompress\" Python",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH15214 ]",
+      "category": "Category: FILE",
+      "count": "(x15)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"unzip\" Shell command, or",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH15216 ]",
+      "category": "Category: FILE",
+      "count": "(x1)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"tar --extract\" Shell command.",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH15228 ]",
+      "category": "Category: ANOMALY",
+      "count": "(x2)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the presence of zero width non-joiner",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH15229 ]",
+      "category": "Category: FILE",
+      "count": "(x4)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of \"java.lang.reflect.Method.invoke\"",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH15230 ]",
+      "category": "Category: FILE",
+      "count": "(x6)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of \"java.lang.reflect.Method.invoke\"",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH15231 ]",
+      "category": "Category: FILE",
+      "count": "(x12)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of constructors for",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH15232 ]",
+      "category": "Category: FILE",
+      "count": "(x16)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH15233 ]",
+      "category": "Category: FILE",
+      "count": "(x10)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16104 ]",
+      "category": "Category: NETWORK",
+      "count": "(x2)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the presence of URLs that embed sign-in",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16107 ]",
+      "category": "Category: NETWORK",
+      "count": "(x21)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the presence of URLs that point to",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16111 ]",
+      "category": "Category: NETWORK",
+      "count": "(x51)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the presence of URLs that utilize",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16114 ]",
+      "category": "Category: NETWORK",
+      "count": "(x2)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the presence of URLs pointing to domains",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16117 ]",
+      "category": "Category: NETWORK",
+      "count": "(x29)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the presence of URLs that contain a",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16118 ]",
+      "category": "Category: NETWORK",
+      "count": "(x2)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the presence of URLs that include suspicious",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16123 ]",
+      "category": "Category: NETWORK",
+      "count": "(x3)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the presence of URLs generated with URL",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16124 ]",
+      "category": "Category: NETWORK",
+      "count": "(x34)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the presence of URLs pointing to web servers",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16125 ]",
+      "category": "Category: NETWORK",
+      "count": "(x2)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the presence of URLs pointing to domains",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16160 ]",
+      "category": "Category: NETWORK",
+      "count": "(x1)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of \"InternetConnectA\" and",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16164 ]",
+      "category": "Category: NETWORK",
+      "count": "(x91)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of \"socket.socket\" and",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16165 ]",
+      "category": "Category: NETWORK",
+      "count": "(x14)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"dgram.createSocket\" NodeJS",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16167 ]",
+      "category": "Category: NETWORK",
+      "count": "(x7)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"requests.get\" Python method,",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16168 ]",
+      "category": "Category: NETWORK",
+      "count": "(x71)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of \"InternetConnectA\" and",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16174 ]",
+      "category": "Category: NETWORK",
+      "count": "(x105)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of \"socket.socket\" and",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16175 ]",
+      "category": "Category: NETWORK",
+      "count": "(x23)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of \"dgram.createSocket\" and",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16177 ]",
+      "category": "Category: NETWORK",
+      "count": "(x9)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"smtplib.SMTP.send_mail\"",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16178 ]",
+      "category": "Category: NETWORK",
+      "count": "(x47)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"asyncio.start_unix_server\"",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16179 ]",
+      "category": "Category: NETWORK",
+      "count": "(x129)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of \"socket.socket\" and",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16180 ]",
+      "category": "Category: NETWORK",
+      "count": "(x10)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of \"dgram.createSocket\" and",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16181 ]",
+      "category": "Category: NETWORK",
+      "count": "(x50)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of \"socket.socket\", \"socket.bind\",",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16183 ]",
+      "category": "Category: NETWORK",
+      "count": "(x8)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"HttpSetProxy\" AutoIt",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16211 ]",
+      "category": "Category: NETWORK",
+      "count": "(x4)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of \"java.lang.reflect.Method.invoke\"",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16212 ]",
+      "category": "Category: NETWORK",
+      "count": "(x7)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of \"java.lang.reflect.Method.invoke\"",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16214 ]",
+      "category": "Category: NETWORK",
+      "count": "(x2)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of \"java.lang.reflect.Method.invoke\"",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16220 ]",
+      "category": "Category: NETWORK",
+      "count": "(x311)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of \"java.net.URLConnection.connect\"",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16223 ]",
+      "category": "Category: NETWORK",
+      "count": "(x3)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"http.createServer\" NodeJS",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16225 ]",
+      "category": "Category: NETWORK",
+      "count": "(x205)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16230 ]",
+      "category": "Category: NETWORK",
+      "count": "(x72)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"socks.socket\" Python method,",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16237 ]",
+      "category": "Category: NETWORK",
+      "count": "(x6)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16239 ]",
+      "category": "Category: NETWORK",
+      "count": "(x14)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16254 ]",
+      "category": "Category: NETWORK",
+      "count": "(x2)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16256 ]",
+      "category": "Category: NETWORK",
+      "count": "(x4)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16309 ]",
+      "category": "Category: NETWORK",
+      "count": "(x12)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the presence of the",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16320 ]",
+      "category": "Category: NETWORK",
+      "count": "(x2)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the presence of top-level domains (TLDs) that",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16321 ]",
+      "category": "Category: NETWORK",
+      "count": "(x2)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the presence of top-level domains (TLDs) that",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH16322 ]",
+      "category": "Category: NETWORK",
+      "count": "(x2)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the presence of the \"herokuapp.com\" domain.",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH17104 ]",
+      "category": "Category: FILE",
+      "count": "(x2)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the presence of the \"/etc/init.d\" string in",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH17408 ]",
+      "category": "Category: NETWORK",
+      "count": "(x11)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"CGI::new\" and \"cookies\" Ruby",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH17410 ]",
+      "category": "Category: NETWORK",
+      "count": "(x18)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH19145 ]",
+      "category": "Category: SEARCH",
+      "count": "(x8)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"GetLogicalDrives\" Windows",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH19162 ]",
+      "category": "Category: SEARCH",
+      "count": "(x95)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH19175 ]",
+      "category": "Category: SEARCH",
+      "count": "(x237)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of \"io/ioutil.ReadDir\" Golang method,",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH19208 ]",
+      "category": "Category: MONITOR",
+      "count": "(x1)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of \"navigator.appName\" and other",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH19499 ]",
+      "category": "Category: SEARCH",
+      "count": "(x2)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of \"java.lang.reflect.Method.invoke\"",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH19501 ]",
+      "category": "Category: NETWORK",
+      "count": "(x48)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"gethostname\" Linux API, or",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH19503 ]",
+      "category": "Category: SEARCH",
+      "count": "(x25)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of \"open\" and \"read\" APIs, and the",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH19508 ]",
+      "category": "Category: SEARCH",
+      "count": "(x8)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"uname\" Shell command, or",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH19519 ]",
+      "category": "Category: BEHAVIOR",
+      "count": "(x2)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"querySelector\" JavaScript",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  },
+  {
+    "matched": "my-project/test@1.0.0",
+    "behavior": {
+      "code": "[ BH19520 ]",
+      "category": "Category: BEHAVIOR",
+      "count": "(x4)",
+      "description": ""
+    },
+    "explained": "Commonly triggered by the use of the \"getElementById\" JavaScript",
+    "prevalence": "INFO: No behavior prevalence information at this time",
+    "detections": [
+      "1) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/com/sun/mail/util/logging/MailHandler.class",
+      "2) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeBodyPart.class",
+      "3) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar/javax/mail/internet/MimeMessage.class",
+      "4) unpacked_files/0/solr-8.10.0/contrib/dataimporthandler-extras/lib/javax.mail-1.5.1.jar"
+    ]
+  }
+]
