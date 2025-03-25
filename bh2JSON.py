@@ -1,65 +1,78 @@
-import json
+import argparse
+import os
 import re
+import json
 
-def parse_bh_file(file_content):
-    results = []
-    current_entry = None
+def parse_input(input_text):
+    # Initialize the result dictionary
+    result = []
+    temp = []
+
+    # Split the input into sections
+    sections = input_text.split('--------------------------------------------------------------------------------')
+
+    # Combine the two split sections into one
+    # and add to a new list
+    for i in range(int(len(sections)/2)):
+        temp = {}
+        
+        sect1 = sections[i*2+1]
+        sect2 = sections[i*2+2]
+
+        # Get BH Code
+        temp["bhcode"]=""
+
+        # Get Category
+        temp["category"]=""
+
+        # Get Count
+        temp["count"]=""
+
+        # Get Explaination 
+        temp["explaination"]=""
+
+
+        result.append(temp)
+
     
-    for line in file_content.split('\n'):
-        if line.startswith('[ MATCHED ]'):
-            if current_entry:
-                results.append(current_entry)
-            current_entry = {
-                'matched': line.split('[ MATCHED ]')[1].strip(),
-                'behavior': {},
-                'explained': '',
-                'prevalence': '',
-                'detections': []
-            }
-        elif line.startswith('[ BH'):
-            parts = line.split('/')
-            current_entry['behavior'] = {
-                'code': parts[0].strip(),
-                'category': parts[1].strip() if len(parts) > 1 else '',
-                'count': parts[2].strip() if len(parts) > 2 else '',
-                'description': parts[3].strip() if len(parts) > 3 else ''
-            }
-        elif line.startswith('Explained:'):
-            current_entry['explained'] = line.split('Explained:')[1].strip()
-        elif line.startswith('Prevalence'):
-            prevalence_lines = []
-            for prevalence_line in file_content.split('\n')[file_content.split('\n').index(line) + 1:]:
-                if prevalence_line.strip() and not prevalence_line.startswith('Detections'):
-                    prevalence_lines.append(prevalence_line.strip())
-                else:
-                    break
-            current_entry['prevalence'] = ' '.join(prevalence_lines).strip()
-        elif line.startswith('Detections'):
-            detections_start = file_content.split('\n').index(line)
-            detections = []
-            for detection_line in file_content.split('\n')[detections_start + 1:]:
-                if detection_line.strip() and not detection_line.startswith('----------------'):
-                    detections.append(detection_line.strip())
-                elif detection_line.startswith('----------------'):
-                    break
-            current_entry['detections'] = detections
+   # for item in temp:
+       # print(item)
 
-    if current_entry:
-        results.append(current_entry)
+    return result
 
-    return results
 
 def main():
-    with open('bh.txt', 'r') as file:
-        content = file.read()
 
-    parsed_data = parse_bh_file(content)
-    json_output = json.dumps(parsed_data, indent=2)
+    # Set up argument parser
+    parser = argparse.ArgumentParser(description="Process a file with an optional file path.")
+    parser.add_argument("file_path", nargs="?", default="default_file.txt", help="Path to the file to process")
 
-    with open('bh.json', 'w') as outfile:
-        outfile.write(json_output)
+    # Parse arguments
+    args = parser.parse_args()
+    file_path = args.file_path
 
-    print("Conversion completed. Output saved to bh_output.json")
+    # If the file path is not provided, prompt user
+    if file_path == "default_file.txt" and not os.path.exists(file_path):
+        # Prompt the user to enter the file path
+        file_path = input("Enter the path to the input text file: ")
+
+    try:
+        # Read the content of the file
+        with open(file_path, 'r') as file:
+            input_text = file.read()
+
+        # Parse input and convert to JSON
+        parsed_data = parse_input(input_text)
+        json_output = json.dumps(parsed_data, indent=2)
+
+        # Output JSON output
+        #with open("bh.json", "w") as out:
+            #out.write(json.dumps(json_output))
+
+    except FileNotFoundError:
+        print(f"Error: The file '{file_path}' was not found.")
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
 if __name__ == "__main__":
     main()
